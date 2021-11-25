@@ -1,0 +1,27 @@
+<%- include('./partials/head')%>
+<%- include('./partials/header')%>
+
+<main class="login">
+    <section class="criar-conta">
+        <h3>Crie uma conta</h3>
+        <h5>Ainda não tem conta no <i><b>seuManto</b></i>?</h5>
+        <button type="button" class="cadastrar">CADASTRE-SE</button>
+    </section>
+    <section class="ou">
+        <p>--- Ou ---</p>
+    </section>
+    <section class="entrar-conta">
+        <h3>Faça login</h3>
+        <h5>Já é nosso cliente?</h5>
+        <div>
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="password" name="Senha" placeholder="Senha">
+            <button type="submit" class="enviar">ENTRAR</button>
+            <a href="#">Esqueci minha senha</a>
+        </div>
+    </section>
+</main>
+
+<%- include('./partials/footer'); %>
+
+</html>

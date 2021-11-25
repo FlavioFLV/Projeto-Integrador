@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+footer {
+    /* margin-top: 20px; */
+    padding: 50px 0;
+    
+    height: 250px;
+    width: 1355px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #C4C4C4;
+
+}
+
+footer .footer-left {
+    display: flex;
+
+    width: 60%;
+
+    border-right: 1px solid;
+
+    font-family: "Roboto"
+}
+
+footer .footer-left h4 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0 0 0 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+footer li {
+    margin-bottom: 15px;
+    
+    list-style-type: none;
+
+    font-size: 12px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .institucional {
+    display: flex;
+    align-items: flex-start;
+}
+
+footer .category {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+footer .category div {
+    display: flex;
+    
+}
+
+footer .footer-rigth {
+    display: flex;
+    flex-direction: column;
+    
+    width: 40%;
+    
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+footer .footer-rigth h4 {
+    margin: 0 100px 0 0;
+    
+    text-align: right;
+
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer h4.pague-com {
+    margin-top: 30px;
+}
+
+footer .footer-rigth div div {
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-right: 70px;
+}
+
+footer img {
+    margin: 15px 0 30px 20px;
+    width: 40px;
+}
+
+footer .redes-sociais {
+    border-bottom: 1px solid
+}
+
+footer .cartoes img {
+    width: 60px;
+}
